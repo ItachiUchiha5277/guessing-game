@@ -10,12 +10,12 @@ from colorama import Fore, Style
 # Fore.WHITE == White Text
 
 
-# Back.BLUE == Blue Text
-# Back.RED == Red Text
-# Back.GREEN == Green Text
-# Back.MAGENTA == Magenta Text
-# Back.YELLOW == Yellow Text
-# Back.WHITE == White Text
+# Back.BLUE == Blue Background
+# Back.RED == Red Background
+# Back.GREEN == Green Background
+# Back.MAGENTA == Magenta Background
+# Back.YELLOW == Yellow Background
+# Back.WHITE == White Background
 
 
 # Style.DIM == Dim Text
@@ -23,13 +23,12 @@ from colorama import Fore, Style
 # Style.BRIGHT == Bold Text
 
 '''
-Note: i have used time.sleep() so that the game does not resume in an instant.
+Note: I have used time.sleep() so that the game does not resume in an instant.
 I think that a pause of a few milliseconds is nice.
 '''
 
-'''
-game decides whether to play the game or not
-'''
+# game variable decides whether to play the game or not
+
 game = True
 
 # final_number generates the number to be guessed
